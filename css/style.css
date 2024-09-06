@@ -26,6 +26,19 @@
   z-index: 99;
 }
 
+.music-handler {
+  position: fixed;
+  right: 30px;
+  bottom: 90px;
+  display: flex;
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  z-index: 99;
+}
+
 /*** Button Start ***/
 .btn {
   font-weight: 600;
