@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mandiri ATM Card Design</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+      }
+
+      .dana-card {
+        width: 320px;
+        height: 200px;
+        background: linear-gradient(135deg, #007bff, #1ec8ff);
+        border-radius: 20px;
+        padding: 20px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        position: relative;
+      }
+
+      .dana-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .dana-logo {
+        width: 80px;
+        height: auto;
+        background: #fff;
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .saldo-label {
+        background-color: white;
+        color: #007bff;
+        padding: 5px 10px;
+        border-radius: 15px;
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      .dana-value {
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+      }
+
+      .currency {
+        font-size: 24px;
+        vertical-align: super;
+      }
+
+      .amount {
+        font-size: 48px;
+      }
+
+      .dana-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .share-treats {
+        display: flex;
+        align-items: center;
+      }
+
+      .share-logo {
+        width: 24px;
+        height: auto;
+        margin-right: 5px;
+      }
+
+      .voucher-details {
+        font-size: 10px;
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dana-card">
+      <div class="dana-header">
+        <img src="/images/dana.png" alt="DANA Logo" class="dana-logo" />
+        <div class="saldo-label">SALDO</div>
+      </div>
+      <div class="dana-value">
+        <span class="currency">Rp</span>
+        <span class="amount">10.000</span>
+      </div>
+      <div class="dana-footer">
+        <div class="share-treats">
+          <img src="share-treats.png" alt="Share Treats" class="share-logo" />
+          <span>SHARE TREATS</span>
+        </div>
+        <div class="voucher-details">
+          <span>Voucher Digital</span><br />
+          <span>*syarat & ketentuan berlaku</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

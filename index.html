@@ -683,7 +683,7 @@
     </section>
     <!-- Gallery end -->
 
-    <!-- RSVP Form Start -->
+    <!-- Wedding Location -->
     <div class="container-fluid RSVP-form py-5" id="weddingRsvp">
       <div class="container py-5">
         <div
@@ -747,6 +747,178 @@
       </div>
     </div>
     <!-- RSVP Form End -->
+
+    <!-- Giftt -->
+    <section
+      class="container-fluid wedding-timeline bg-secondary position-relative overflow-hidden py-5"
+      id="weddingTimeline"
+    >
+      <div
+        class="position-absolute"
+        style="
+          top: 50%;
+          left: -100px;
+          transform: translateY(-50%);
+          opacity: 0.5;
+        "
+      >
+        <img src="img/wedding-bg.png" class="img-fluid" alt="" />
+      </div>
+      <div
+        class="position-absolute"
+        style="
+          top: 50%;
+          right: -160px;
+          transform: translateY(-50%);
+          opacity: 0.5;
+          rotate: 335deg;
+        "
+      >
+        <img src="img/wedding-bg.png" class="img-fluid" alt="" />
+      </div>
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h1 class="display-4 text-white">Sign of Love</h1>
+          <div class="d-flex justify-content-center">
+            <p class="fs-16 w-70 mt-2">
+              Kehadiran Bapak/Ibu/Saudara/i saja sudah sangat membuat kami
+              senang. Namun, jika Bapak/Ibu/Saudara/i ingin memberi lebih , bisa
+              dengan mengirimkan ke nomor di bawah ini
+            </p>
+          </div>
+        </div>
+        <div class="position-relative wedding-content">
+          <div class="row g-4">
+            <div
+              class="col-lg-4 col-md-12 col-xl-4 col-sm-12 border border-bottom-0 d-flex align-items-center justify-content-center"
+            >
+              <div style="max-width: 350px; width: 100%">
+                <div
+                  class="text-center p-3 wow fadeIn w-100"
+                  data-wow-delay="0.1s"
+                >
+                  <div class="atm-card">
+                    <div class="header">
+                      <img
+                        src="/images/logo-mandiri.png"
+                        alt="Mandiri Logo"
+                        class="logo"
+                      />
+                    </div>
+                    <div class="chip">
+                      <div class="chip-lines"></div>
+                    </div>
+                    <div class="card-number" id="atm-tiwi">1050015634268</div>
+                    <div class="card-holder">
+                      <span>LIDIA FRATIWI MANURUNG</span>
+                    </div>
+                    <div class="expiry">
+                      <span>Valid Thru</span>
+                      <span>12/26</span>
+                    </div>
+                  </div>
+
+                  <div class="mt-4" onClick="copyNumber('atm-tiwi')">
+                    <div class="btn button-copy">Salin</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-12 col-xl-4 col-sm-12 border border-top-0 border-end-0 d-flex align-items-center justify-content-center"
+            >
+              <div style="max-width: 350px; width: 100%">
+                <div
+                  class="text-center p-3 wow fadeIn w-100"
+                  data-wow-delay="0.5s"
+                >
+                  <div class="dana-card">
+                    <div class="dana-header">
+                      <img
+                        src="/images/dana.png"
+                        alt="DANA Logo"
+                        class="dana-logo"
+                      />
+                      <div class="saldo-label">SALDO</div>
+                    </div>
+                    <div class="dana-value">
+                      <span class="currency mt-3" id="dana-tiwi"
+                        >082145515189</span
+                      >
+                    </div>
+                    <div class="dana-footer">
+                      <div class="share-treats">
+                        <span>LIDIA FRATIWI MANURUNG</span>
+                      </div>
+                      <div class="voucher-details">
+                        <span>Akun Dana</span><br />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="mt-4" onClick="copyNumber('dana-tiwi')">
+                    <div class="btn button-copy">Salin</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-12 col-xl-4 col-sm-12 border border-bottom-0 d-flex align-items-center justify-content-center"
+            >
+              <div style="max-width: 350px; width: 100%">
+                <div
+                  class="text-center p-3 wow fadeIn w-100"
+                  data-wow-delay="0.7s"
+                >
+                  <div class="atm-card">
+                    <div class="header">
+                      <img
+                        src="/images/logo-mandiri.png"
+                        alt="Mandiri Logo"
+                        class="logo"
+                      />
+                    </div>
+                    <div class="chip">
+                      <div class="chip-lines"></div>
+                    </div>
+                    <div class="card-number" id="atm-budi">1050015546728</div>
+                    <div class="card-holder">
+                      <span>Budi Setiawan Majing</span>
+                    </div>
+                    <div class="expiry">
+                      <span>Valid Thru</span>
+                      <span>12/26</span>
+                    </div>
+                  </div>
+
+                  <div class="mt-4" onClick="copyNumber('atm-budi')">
+                    <div class="btn button-copy">Salin</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="position-absolute heart-circle"
+            style="bottom: 0; left: -18px"
+          >
+            <div
+              class="border border-2 border-primary rounded-circle p-1 bg-secondary"
+            ></div>
+          </div>
+          <div
+            class="position-absolute heart-circle"
+            style="top: 18px; right: -17px"
+          >
+            <div
+              class="border border-2 border-primary rounded-circle p-1 bg-secondary"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Wedding Timeline End -->
 
     <!-- Footer Start -->
     <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
@@ -914,6 +1086,19 @@
 
         const audioElem = document.getElementById("musicplayer");
         audioElem.play();
+      }
+
+      function copyNumber(id) {
+        const value = document.getElementById(id).textContent;
+
+        navigator.clipboard
+          .writeText(value)
+          .then(() => {
+            alert("Text copied to clipboard: " + value);
+          })
+          .catch((err) => {
+            alert("Failed to copy: " + err);
+          });
       }
     </script>
   </body>

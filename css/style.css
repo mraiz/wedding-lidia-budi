@@ -507,3 +507,155 @@
 .fs-28 {
   font-size: 28px !important;
 }
+
+/* ATM Card */
+.atm-card {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(135deg, #0a3471, #006eb6);
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.chip {
+  width: 50px;
+  height: 40px;
+  background-color: gold;
+  border-radius: 5px;
+  position: relative;
+  margin: 10px 0;
+}
+
+.chip-lines {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.2) 10%,
+    transparent 10%,
+    transparent 20%,
+    rgba(0, 0, 0, 0.2) 20%
+  );
+}
+
+.card-number {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.card-holder {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.expiry {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+/* End */
+
+/* Dana */
+.dana-card {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(135deg, #007bff, #1ec8ff);
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.dana-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dana-logo {
+  width: 80px;
+  height: auto;
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.saldo-label {
+  background-color: white;
+  color: #007bff;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.dana-value {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.currency {
+  font-size: 24px;
+  vertical-align: super;
+}
+
+.amount {
+  font-size: 48px;
+}
+
+.dana-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.share-treats {
+  display: flex;
+  align-items: center;
+}
+
+.share-logo {
+  width: 24px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.voucher-details {
+  font-size: 10px;
+  text-align: right;
+}
+
+.button-copy {
+  padding: 8px 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.w-70 {
+  width: 70% !important;
+}
