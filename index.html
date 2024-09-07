@@ -64,7 +64,12 @@
     <base href="https://mraiz.github.io/wedding-lidia-budi/" />
   </head>
 
-  <body data-bs-spy="scroll" data-bs-target="#navBar" id="weddingHome">
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navBar"
+    class="no-scroll"
+    id="weddingHome"
+  >
     <!-- Spinner Start -->
     <div
       id="spinner"
@@ -1086,20 +1091,28 @@
       window.addEventListener("scroll", function () {
         const scrollTop =
           window.pageYOffset || document.documentElement.scrollTop;
-        console.log("scrollTop", scrollTop);
+
+        setTimeout(() => {
+          var audioElem = document.getElementById("musicplayer");
+          audioElem.play();
+        }, 200);
 
         if (scrollTop > 250) {
           musicHandler.classList.remove("d-none");
           musicHandler.classList.add("d-flex");
-          const audioElem = document.getElementById("musicplayer");
-          audioElem.play();
         } else {
           musicHandler.classList.add("d-none");
           musicHandler.classList.remove("d-flex");
         }
       });
 
+      window.addEventListener("click", function () {
+        allowScroll();
+      });
+
       function allowScroll() {
+        document.body.classList.remove("no-scroll");
+
         const targetElement = document.querySelector("#weddingAbout");
         const elementPosition =
           targetElement.getBoundingClientRect().top + window.pageYOffset;
